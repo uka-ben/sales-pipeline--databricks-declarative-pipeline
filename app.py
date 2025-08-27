@@ -31,7 +31,7 @@ st.divider()
 # PIPELINE WALKTHROUGH
 # -------------------------------
 st.header("🔄 Pipeline Walkthrough")
-st.image(img, caption=f"Screenshot {i}", use_container_width=True)
+
 captions = {
     1: "Bronze Layer — Raw sales ingestion from Nigeria & Ghana.",
     2: "Bronze Layer — Customers ingestion with data quality rules.",
@@ -46,7 +46,7 @@ for i in range(1, 8):  # screenshots 1 to 7
     col1, col2 = st.columns([1, 2])
     with col1:
         img = Image.open(f"screenshots/Screenshot{i}.png")
-        #st.image(img, caption=f"Screenshot {i}", use_container_width=True)
+        st.image(img, use_container_width=True)
     with col2:
         st.subheader(f"Step {i}")
         st.write(captions[i])
@@ -92,6 +92,7 @@ I specialize in **end-to-end AI & Data Engineering solutions**:
 
 📌 I use projects like this one to **teach, build, and deliver real-world enterprise-grade solutions**.
 """)
+
 
 
 
