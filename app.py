@@ -21,8 +21,8 @@ This project demonstrates how to build an **end-to-end data pipeline** on Databr
 **Case Study:** Jumia Sales (Nigeria + Ghana).  
 **Technologies:** Databricks LakeFlow, Delta Live Tables (DLT), Streaming, Unity Catalog.
 
-👉 [GitHub Repo](https://github.com/USERNAME/lakeflow-jumia-sales-pipeline)  
-👉 [YouTube Video](https://youtube.com/yourvideo)
+👉 [GitHub Repo](https://github.com/uka-ben/sales-pipeline--databricks-declarative-pipeline)  
+👉 [YouTube Video](https://youtu.be/ywivtZhyjx4)
 """)
 
 st.divider()
@@ -70,3 +70,4 @@ st.markdown("""
 """)
 
 st.success("🎯 This project is a template for enterprise-scale Lakehouse implementations.")
+
