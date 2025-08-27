@@ -53,7 +53,7 @@ st.divider()
 st.header("🖼️ Pipeline Screenshots")
 
 for i in range(1, 8):
-    img = Image.open(f"screenshots/screenshot{i}.png")
+    img = Image.open(f"screenshots/Screenshot{i}.png")
     st.image(img, caption=f"Screenshot {i}", use_container_width=True)
 
 st.divider()
@@ -98,3 +98,4 @@ I specialize in **end-to-end AI & Data Engineering solutions**:
 
 📌 I use projects like this one to **teach, build, and deliver real-world enterprise-grade solutions**.
 """)
+
