@@ -22,7 +22,7 @@ This project demonstrates how to build an **end-to-end data pipeline** on Databr
 **Technologies:** Databricks LakeFlow, Delta Live Tables (DLT), Streaming, Unity Catalog.
 
 👉 [GitHub Repo](https://github.com/uka-ben/sales-pipeline--databricks-declarative-pipeline)  
-👉 [YouTube Video](https://youtu.be/ywivtZhyjx4)
+👉 [YouTube Video](https://youtu.be/ywivtZhyjx4?si=p8XtlwK2EC7mdtZq)
 """)
 
 st.divider()
@@ -64,10 +64,31 @@ st.markdown("""
 - ✅ Automated end-to-end pipeline orchestration in Databricks.  
 
 **Recruiters should note:**  
-- I can design and implement **production-grade data pipelines**.  
-- I understand both **batch + streaming ingestion**.  
-- I can use **LakeFlow, Unity Catalog, and DLT** for modern data engineering.  
+I can design and implement **production-grade data pipelines** that handle both **batch + streaming ingestion** using Databricks LakeFlow, Unity Catalog, and DLT.
 """)
 
 st.success("🎯 This project is a template for enterprise-scale Lakehouse implementations.")
 
+st.divider()
+
+# -------------------------------
+# ABOUT ME SECTION
+# -------------------------------
+st.header("👨‍💻 About Me")
+st.markdown("""
+**Benjamin Imo Uka**  
+**AI & Data Engineering | ML Systems, LLMs, DRL | Databricks, PySpark, MLOps**
+
+- Portfolio: [https://benjaminuka.streamlit.app/](https://benjaminuka.streamlit.app/)  
+- GitHub: [https://github.com/uka-ben](https://github.com/uka-ben)  
+- LinkedIn: [https://www.linkedin.com/in/benjamin-uka-imo](https://www.linkedin.com/in/benjamin-uka-imo)  
+- YouTube: [https://youtube.com/@blackdatascience](https://youtube.com/@blackdatascience)  
+
+I specialize in **end-to-end AI & Data Engineering solutions**:
+- Databricks LakeFlow, AutoLoader, Streaming, DLT  
+- ML Systems (training, deployment, MLOps)  
+- Deep Reinforcement Learning (DRL), LLMs, GNNs, Predictive Systems  
+- Projects in Finance, NLP, Fraud Detection, IoT, Robotics  
+
+📌 I use projects like this one to **teach, build, and deliver real-world enterprise-grade solutions**.
+""")
