@@ -47,7 +47,8 @@ for i in range(1, 8):  # screenshots 1 to 7
     st.image(img, use_container_width=True)
     col1, col2 = st.columns([1, 2])
     with col1:
-        img = Image.open(f"screenshots/Screenshot{i}.png")
+        None
+        #img = Image.open(f"screenshots/Screenshot{i}.png")
         #st.image(img, use_container_width=True)
     with col2:
         st.subheader(f"Step {i}")
@@ -94,6 +95,7 @@ I specialize in **end-to-end AI & Data Engineering solutions**:
 
 📌 I use projects like this one to **teach, build, and deliver real-world enterprise-grade solutions**.
 """)
+
 
 
 
