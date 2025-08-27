@@ -28,9 +28,9 @@ This project demonstrates how to build an **end-to-end data pipeline** on Databr
 st.divider()
 
 # -------------------------------
-# PIPELINE WALKTHROUGH
+# CAPTIONS SECTION
 # -------------------------------
-st.header("🔄 Pipeline Walkthrough")
+st.header("🔄 Pipeline Walkthrough (Captions)")
 
 captions = {
     1: "Bronze Layer — Raw sales ingestion from Nigeria & Ghana.",
@@ -42,13 +42,21 @@ captions = {
     7: "Final Dashboard — Jumia Sales insights for decision-making."
 }
 
-for i in range(1, 8):  # screenshots 1 to 7
-    img = Image.open(f"screenshots/Screenshot{i}.png")
-    st.image(img, use_container_width=True)
+for i in range(1, 8):
+    st.markdown(f"**Step {i}:** {captions[i]}")
 
-    st.subheader(f"Step {i}")
-    st.write(captions[i])
-    st.divider()
+st.divider()
+
+# -------------------------------
+# SCREENSHOTS SECTION
+# -------------------------------
+st.header("🖼️ Pipeline Screenshots")
+
+for i in range(1, 8):
+    img = Image.open(f"screenshots/screenshot{i}.png")
+    st.image(img, caption=f"Screenshot {i}", use_container_width=True)
+
+st.divider()
 
 # -------------------------------
 # KEY LEARNINGS / IMPACT
@@ -90,12 +98,3 @@ I specialize in **end-to-end AI & Data Engineering solutions**:
 
 📌 I use projects like this one to **teach, build, and deliver real-world enterprise-grade solutions**.
 """)
-
-
-
-
-
-
-
-
-
