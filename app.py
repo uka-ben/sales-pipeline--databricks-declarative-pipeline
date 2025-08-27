@@ -31,7 +31,7 @@ st.divider()
 # PIPELINE WALKTHROUGH
 # -------------------------------
 st.header("🔄 Pipeline Walkthrough")
-
+st.image(img, caption=f"Screenshot {i}", use_container_width=True)
 captions = {
     1: "Bronze Layer — Raw sales ingestion from Nigeria & Ghana.",
     2: "Bronze Layer — Customers ingestion with data quality rules.",
@@ -92,6 +92,7 @@ I specialize in **end-to-end AI & Data Engineering solutions**:
 
 📌 I use projects like this one to **teach, build, and deliver real-world enterprise-grade solutions**.
 """)
+
 
 
 
